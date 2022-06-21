@@ -18,4 +18,5 @@ h2 {
     margin-top: auto;
     border: 4px;
     border-style: outset;
+    align-content: center;
 }
