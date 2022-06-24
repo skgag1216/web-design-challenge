@@ -10,43 +10,41 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-        
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="col-md-9"><a class="navbar-brand" style="background-color:#EA2424;" href="https://skgag1216.github.io/web-design-challenge/">.Latitude.</a></div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <div class="col-md-3">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparisons.html">Comparisons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
-                Plots
-              </a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="col-md-8"><a class="navbar-brand" style="background-color:#EA2424;" href="https://skgag1216.github.io/web-design-challenge/">.Latitude.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="col-md-3">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown"><div class="btn-group dropleft">
+          <button type="button" class="btn btn-secondary dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots Menu</a></button>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="vis_cloud.html">Latitude vs. Cloudiness</a>
-                <a class="dropdown-item" href="vis_humidity.html">Latitude vs. Humidity</a>
-                <a class="dropdown-item" href="vis_temp.html">Latitude vs. Temperature</a>
-                <a class="dropdown-item" href="vis_winds.html">Latitude vs. Wind Speed</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+                <a class="dropdown-item" href="vis_cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="vis_humidity.html">Humidity</a>
+                <a class="dropdown-item" href="vis_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="vis_winds.html">Wind Speed</a>
+            </div>
+          </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
       <div class="row">
         <!-- Main Content -->
         <div class="col-md-8 main">
