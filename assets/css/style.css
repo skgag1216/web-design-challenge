@@ -1,11 +1,17 @@
 body {
     font-family: 'Courier New', Courier, monospace;
 }
-
+p {
+    padding-left: 10px;
+}
+img {
+    padding-left: 10px;
+}
 .vis-sidebar-nav {
     float: right;
 }
 h2 {
+    padding-left: 10px;
     font-size: 30px;
 }
 .main {
@@ -20,10 +26,10 @@ h2 {
     border-style: outset;
     align-content: center;
 }
-table {
+.dataframe {
     border: solid;
-    border-width: 3px;
-    text-align: right;
+    column-width: auto;
+    column-rule-style: solid;
 }
 td {
     text-align: right;
@@ -32,3 +38,12 @@ td {
 th {
     text-align: center;
 }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { body {
+    background: #F8F9F9;
+}}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { body {
+    background: #FCF3CF;
+}}
